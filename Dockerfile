@@ -1,6 +1,4 @@
-FROM ubuntu:14.04
+FROM tomcat:latest
 MAINTAINER Mounika "mrao7311@gmail.com"
+RUN pwd
 
-RUN apt-get update 
-RUN apt-get install -y telnet 
-RUN apt-get install -y 
