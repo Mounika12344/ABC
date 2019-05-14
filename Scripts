@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in `at $1`
+do
+useradd $i
+echo "redhat" | passwd --stdin $i
+done
